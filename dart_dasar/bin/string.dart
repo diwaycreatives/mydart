@@ -2,7 +2,7 @@ void main(List<String> args) {
   String firstName = 'Diway';
   String lastname = "Afniwar";
 
-  var namaFull = '$firstName ${lastname}';
+  var namaFull = '$firstName $lastname';
 
   print(namaFull);
 
@@ -21,8 +21,8 @@ void main(List<String> args) {
   print(nama1);
   print(nama2);
 
-  print(firstName + " " + lastname);
-  print('${firstName + " " + lastname}'); // pakai string interpolation
+  print("$firstName $lastname");
+  print("$firstName $lastname"); // pakai string interpolation
   print('diway' ' afniwar' ' angeline');
 
   //multiline string atau long string
