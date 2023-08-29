@@ -28,4 +28,13 @@ void main() {
   //menghapus data
   map1.remove('pertama');
   print(map1);
+
+  // cara isi map secara langsung
+  var nama = <String, String>{
+    'satu': 'diway',
+    'dua': 'syifa',
+    'tiga': 'hamzah',
+  };
+
+  print(nama);
 }

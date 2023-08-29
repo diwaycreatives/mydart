@@ -9,12 +9,12 @@ void main() {
 
   print(varIsInt);
 
-  print(varIsInt is int);
+  //print(varIsInt is int);
   print(varIsInt is double);
   print(varIsInt is String);
   print(varIsInt is bool);
 
-  print(varIsInt is! int);
+  //print(varIsInt is! int);
   print(varIsInt is! double);
   print(varIsInt is! String);
   print(varIsInt is! bool);
