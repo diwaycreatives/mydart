@@ -1,12 +1,12 @@
 void main() {
   // format untuk membuat map di dart
   Map<String, String> map1 = {};
-  var map2 = Map<String, String>();
-  var map3 = <String, String>{};
+  //var map2 = Map<String, String>();
+  //var map3 = <String, String>{};
 
   print(map1);
-  print(map2);
-  print(map3);
+  //print(map2);
+  //print(map3);
 
   // manipulasi map
 
